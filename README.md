@@ -2,7 +2,7 @@
 
 Three experiments in chunky, melting display type, made for **STOP THE SLOP**.
 
-![STOP THE SLOP in the original Slop Melt 0.1](docs/stop-the-slop.png)
+[![STOP THE SLOP rendered with Slop Melt Bitmap v03](docs/v03-stop-the-slop.png)](versions/v03-bitmap/dist/)
 
 ## Versions
 
@@ -10,9 +10,9 @@ Each version has its own family name. You can install them together.
 
 | Version | Direction | Downloads | Coverage | Status |
 | --- | --- | --- | --- | --- |
-| 0.1 · Slop Melt | Procedural outlines and hanging drips | [TTF](assets/SlopMelt-Regular.ttf?raw=true), [UFO](source/SlopMelt-Regular.ufo) | A–Z, digits, printable ASCII, punctuation aliases; lowercase keys produce capitals | Original display prototype; 14 kerning pairs |
-| 0.2 · Slop Melt Wax | Folds through faces and counters | [TTF](versions/v02-wax/assets/SlopMeltWax-Regular.ttf?raw=true), [UFO](versions/v02-wax/source/SlopMeltWax-Regular.ufo) | Same coverage as 0.1 | Installable wax study; 14 kerning pairs |
 | 0.3 · Slop Melt Bitmap v03 | Generated alphabet traced into outlines | [TTF](versions/v03-bitmap/dist/Slop-Melt-Bitmap-v03-Regular.ttf?raw=true), [OTF](versions/v03-bitmap/dist/Slop-Melt-Bitmap-v03-Regular.otf?raw=true), [WOFF](versions/v03-bitmap/dist/Slop-Melt-Bitmap-v03-Regular.woff?raw=true) | A–Z with lowercase aliases, space and nonbreaking space | Installable bitmap-derived prototype; first-pass spacing, no pair kerning |
+| 0.2 · Slop Melt Wax | Folds through faces and counters | [TTF](versions/v02-wax/assets/SlopMeltWax-Regular.ttf?raw=true), [UFO](versions/v02-wax/source/SlopMeltWax-Regular.ufo) | Same coverage as 0.1 | Installable wax study; 14 kerning pairs |
+| 0.1 · Slop Melt | Procedural outlines and hanging drips | [TTF](assets/SlopMelt-Regular.ttf?raw=true), [UFO](source/SlopMelt-Regular.ufo) | A–Z, digits, printable ASCII, punctuation aliases; lowercase keys produce capitals | Original display prototype; 14 kerning pairs |
 
 All three are single-style outline fonts. Accents, non-Latin scripts, and
 separately drawn lowercase aren't included. Version 0.3 has no digits or
@@ -27,54 +27,11 @@ We couldn't identify the original typeface, so I asked Codex to make a new one.
 The original sticker font and designer remain unidentified. The sticker's
 photograph and wordmark aren't included in this repository.
 
-## 0.1 · Slop Melt
-
-![Slop Melt 0.1 alphabet, numerals, and punctuation](docs/type-specimen.png)
-
-The first version has uneven edges, open faces, and thin drips hanging from the
-bottom. It contains 71 glyphs and 103 mapped codepoints, covering all 95 printable
-ASCII characters plus a few aliases. Curly quotes share the straight-quote
-designs; en and em dashes share the hyphen. There are 14 kerning pairs.
-
-Codex wrote [the Python generator](source/build_font.py). It defines original
-letter skeletons with line segments and sampled cubic Bézier curves. Shapely
-thickens and merges those paths, adds tapered drip polygons, and applies small,
-repeatable sine-wave displacements. The A's counter is opened explicitly.
-FontTools turns the oriented contours into softened quadratic outlines and adds
-advance widths, side bearings, cmap, metrics, naming tables, and GPOS kerning.
-ufoLib2 saves the editable UFO. No raster tracing or image-generation model was
-used to draw this version. Paper was used to arrange and review SVG lettering.
-
-The published 0.1 font, editable sources, generator, and original specimens remain
-byte-for-byte unchanged. Its earlier publication updated only the embedded license
-description to WTFPL; the letterforms match the initial 0.1 build.
-
-A [black SVG graphic](assets/stop-the-slop-black.svg) is available for recoloring.
-
-## 0.2 · Slop Melt Wax
-
-![Slop Melt Wax 0.2 alphabet, numerals, and punctuation](docs/v02-type-specimen.png)
-
-For the second direction, I wanted the melting to happen through the letter
-faces and inner negative spaces. This version thickens the bodies, adds curved
-channels and wax tongues inside counters, and replaces the long filaments with
-shorter, blunt lobes. G, I, T, O, P, S, H, E, and L have individually placed folds.
-The remaining letters and digits use the related construction; punctuation
-retains the 0.1 shapes.
-
-This is an actual installable TTF with editable UFO source, 71 glyphs, 103 Unicode
-mappings, and 14 pair adjustments. It uses Shapely, FontTools, and ufoLib2, with
-positive and negative wax shapes added to the original procedural approach.
-No image-generation model or borrowed font outlines were used.
-
-See the [version notes and rebuild instructions](versions/v02-wax/README.md),
-[colorways](docs/v02-colorways.png), and [black SVG](versions/v02-wax/assets/Stop-The-Slop-Wax-v02-black.svg).
-
 ## 0.3 · Slop Melt Bitmap v03
 
-![Slop Melt Bitmap v03 alphabet rendered from its compiled font](docs/v03-type-specimen.png)
+[Download TTF, OTF, or WOFF](versions/v03-bitmap/dist/)
 
-![STOP THE SLOP rendered with Slop Melt Bitmap v03](docs/v03-stop-the-slop.png)
+[![Slop Melt Bitmap v03 alphabet rendered from its compiled font](docs/v03-type-specimen.png)](versions/v03-bitmap/dist/)
 
 The third version starts with a newly generated alphabet bitmap rather than
 procedural letter skeletons. The generation record identifies the built-in image
@@ -98,6 +55,55 @@ See the [version notes and rebuild instructions](versions/v03-bitmap/README.md)
 for its source bitmap, isolated glyph bitmaps, traced SVGs, and build records.
 The original font files and proof images are preserved unchanged. The script's
 shared-library lookup and proof-caption font handling have been made portable.
+
+## 0.2 · Slop Melt Wax
+
+[Download TTF](versions/v02-wax/assets/SlopMeltWax-Regular.ttf?raw=true)
+
+[![Slop Melt Wax 0.2 alphabet, numerals, and punctuation](docs/v02-type-specimen.png)](versions/v02-wax/assets/SlopMeltWax-Regular.ttf)
+
+For the second direction, I wanted the melting to happen through the letter
+faces and inner negative spaces. This version thickens the bodies, adds curved
+channels and wax tongues inside counters, and replaces the long filaments with
+shorter, blunt lobes. G, I, T, O, P, S, H, E, and L have individually placed folds.
+The remaining letters and digits use the related construction; punctuation
+retains the 0.1 shapes.
+
+This is an actual installable TTF with editable UFO source, 71 glyphs, 103 Unicode
+mappings, and 14 pair adjustments. It uses Shapely, FontTools, and ufoLib2, with
+positive and negative wax shapes added to the original procedural approach.
+No image-generation model or borrowed font outlines were used.
+
+See the [version notes and rebuild instructions](versions/v02-wax/README.md),
+[colorways](docs/v02-colorways.png), and [black SVG](versions/v02-wax/assets/Stop-The-Slop-Wax-v02-black.svg).
+
+## 0.1 · Slop Melt
+
+[Download TTF](assets/SlopMelt-Regular.ttf?raw=true)
+
+[![STOP THE SLOP in the original Slop Melt 0.1](docs/stop-the-slop.png)](assets/SlopMelt-Regular.ttf)
+
+[![Slop Melt 0.1 alphabet, numerals, and punctuation](docs/type-specimen.png)](assets/SlopMelt-Regular.ttf)
+
+The first version has uneven edges, open faces, and thin drips hanging from the
+bottom. It contains 71 glyphs and 103 mapped codepoints, covering all 95 printable
+ASCII characters plus a few aliases. Curly quotes share the straight-quote
+designs; en and em dashes share the hyphen. There are 14 kerning pairs.
+
+Codex wrote [the Python generator](source/build_font.py). It defines original
+letter skeletons with line segments and sampled cubic Bézier curves. Shapely
+thickens and merges those paths, adds tapered drip polygons, and applies small,
+repeatable sine-wave displacements. The A's counter is opened explicitly.
+FontTools turns the oriented contours into softened quadratic outlines and adds
+advance widths, side bearings, cmap, metrics, naming tables, and GPOS kerning.
+ufoLib2 saves the editable UFO. No raster tracing or image-generation model was
+used to draw this version. Paper was used to arrange and review SVG lettering.
+
+The published 0.1 font, editable sources, generator, and original specimens remain
+byte-for-byte unchanged. Its earlier publication updated only the embedded license
+description to WTFPL; the letterforms match the initial 0.1 build.
+
+A [black SVG graphic](assets/stop-the-slop-black.svg) is available for recoloring.
 
 ## Rebuild and validate
 
