@@ -1,0 +1,33 @@
+{
+  "method": "TTF rendered through FreeType at 1000 pixels, tight crop resized to original glyph bitmap, compared at 50 percent threshold",
+  "intersection_over_union": {
+    "A": 0.983,
+    "B": 0.9827,
+    "C": 0.9835,
+    "D": 0.9878,
+    "E": 0.983,
+    "F": 0.9883,
+    "G": 0.9838,
+    "H": 0.9838,
+    "I": 0.984,
+    "J": 0.9763,
+    "K": 0.9883,
+    "L": 0.9803,
+    "M": 0.9745,
+    "N": 0.982,
+    "O": 0.9913,
+    "P": 0.9822,
+    "Q": 0.991,
+    "R": 0.9826,
+    "S": 0.9878,
+    "T": 0.9844,
+    "U": 0.9801,
+    "V": 0.9822,
+    "W": 0.9862,
+    "X": 0.9865,
+    "Y": 0.9843,
+    "Z": 0.9881
+  },
+  "minimum": 0.9745,
+  "mean": 0.9842
+}

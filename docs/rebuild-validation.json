@@ -1,0 +1,43 @@
+{
+  "status": "passed with documented platform rounding differences",
+  "method": "Rebuilt 0.2 and 0.3 in separate scratch copies; supplied release fonts were not overwritten. Potrace 1.16 was built separately and selected through POTRACE_LIBRARY.",
+  "environment": "macOS arm64, Python 3.15, FontTools 4.68.0, Pillow 13.0.0, Shapely 2.2.0, ufoLib2 0.19.1, NumPy 2.5.4, SciPy 1.18.1",
+  "checks": [
+    {
+      "version": "0.2",
+      "identical_tables": {
+        "glyf": true,
+        "hmtx": true,
+        "GPOS": true,
+        "cmap": true
+      }
+    },
+    {
+      "version": "0.3",
+      "format": "ttf",
+      "cmap_and_metrics_identical": true,
+      "render_comparison_to_imported_font": {
+        "mean_iou": 0.9999988332568931,
+        "minimum_iou": 0.9999800296559609,
+        "size_px": 1000
+      }
+    },
+    {
+      "version": "0.3",
+      "format": "otf",
+      "cmap_and_metrics_identical": true,
+      "render_comparison_to_imported_font": {
+        "mean_iou": 0.9999953284991375,
+        "minimum_iou": 0.9998885216151403,
+        "size_px": 1000
+      }
+    },
+    {
+      "version": "0.3",
+      "format": "woff",
+      "cmap_and_metrics_identical": true
+    }
+  ],
+  "rounding_note": "0.3 D and H differ slightly after a macOS rebuild: TrueType point counts are unchanged, with coordinate deltas up to 2 font units. Small cubic trace differences also occur. The original font files are retained exactly; bit-identical cross-platform rebuilds are not claimed.",
+  "caption_note": "Portable proof-caption handling can change captions. Supplied proof images remain unchanged."
+}
