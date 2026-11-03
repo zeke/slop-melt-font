@@ -1,0 +1,4 @@
+fonttools==4.68.0
+shapely==2.2.0
+ufoLib2==0.19.1
+pillow==13.0.0

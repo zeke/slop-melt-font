@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "glyphs": 71,
+  "mapped_codepoints": 103,
+  "printable_ASCII": "95/95",
+  "lowercase": "capital aliases",
+  "license": "WTFPL version 2",
+  "checks": [
+    "declared glyph bounds and positive side bearings",
+    "all font tables decompile",
+    "binary save/reopen preserves cmap",
+    "all nonspace printable ASCII characters rasterize"
+  ],
+  "sha256": "00c98575bb1e5ae76e862c9fd9ba164a3e6390c4c906db2f7ed85f2e8d319752",
+  "limits": [
+    "no accented letters or non-Latin scripts",
+    "no separately drawn lowercase",
+    "single display style",
+    "no physical print or commercial publishing-app testing"
+  ]
+}

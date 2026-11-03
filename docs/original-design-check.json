@@ -1,0 +1,15 @@
+{
+  "original_0_1_design_preserved": true,
+  "identical_tables": {
+    "glyf": true,
+    "hmtx": true,
+    "GPOS": true,
+    "cmap": true,
+    "hhea": true,
+    "OS/2": true,
+    "post": true,
+    "maxp": true,
+    "loca": true
+  },
+  "publication_change": "License description in name table updated from MIT to WTFPL v2; head timestamp/checksum may differ."
+}
