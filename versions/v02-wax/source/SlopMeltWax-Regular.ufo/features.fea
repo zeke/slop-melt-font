@@ -1,0 +1,16 @@
+languagesystem DFLT dflt; feature kern {
+pos T O -35;
+pos T S -20;
+pos T A -60;
+pos T H -12;
+pos L O -25;
+pos L T -45;
+pos S T -20;
+pos P T -20;
+pos A V -50;
+pos V A -50;
+pos W A -30;
+pos Y O -40;
+pos O P -12;
+pos S L -8;
+} kern;

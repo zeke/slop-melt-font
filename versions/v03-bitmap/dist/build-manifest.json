@@ -1,0 +1,1114 @@
+{
+  "family": "Slop Melt Bitmap v03",
+  "version": "0.300",
+  "source_file": "Slop-Melt-Bitmap-v03-A-Z.png",
+  "source_dimensions": [
+    1484,
+    1060
+  ],
+  "threshold": 128,
+  "tracer": "potracelib 1.16",
+  "trace_parameters": {
+    "turdsize": 2,
+    "alphamax": 1.0,
+    "opttolerance": 0.18
+  },
+  "coverage": "26 uppercase glyphs; a-z map to capitals; space and no-break space",
+  "limitations": [
+    "No distinct lowercase",
+    "No digits, punctuation, accents, or non-Latin glyphs",
+    "First-pass spacing, no pair kerning",
+    "Experimental display typeface, not a finished production family"
+  ],
+  "glyphs": {
+    "A": {
+      "source_bbox": [
+        37,
+        36,
+        254,
+        273
+      ],
+      "source_ink_area": 31391,
+      "scale": 3.528225806451613,
+      "advance": 835,
+      "bounds": [
+        35.59331456148584,
+        -36.06802291842827,
+        800.4037242844724,
+        798.0173487652578
+      ],
+      "contours": [
+        {
+          "area": 33702,
+          "sign": "+",
+          "segments": 45
+        },
+        {
+          "area": 394,
+          "sign": "-",
+          "segments": 12
+        },
+        {
+          "area": 244,
+          "sign": "-",
+          "segments": 9
+        },
+        {
+          "area": 1082,
+          "sign": "-",
+          "segments": 5
+        },
+        {
+          "area": 365,
+          "sign": "-",
+          "segments": 11
+        },
+        {
+          "area": 226,
+          "sign": "-",
+          "segments": 12
+        }
+      ]
+    },
+    "B": {
+      "source_bbox": [
+        281,
+        41,
+        456,
+        272
+      ],
+      "source_ink_area": 29367,
+      "scale": 3.528225806451613,
+      "advance": 687,
+      "bounds": [
+        36.836043127051205,
+        -32.26015611195991,
+        651.8560739428988,
+        780.2734959759242
+      ],
+      "contours": [
+        {
+          "area": 32094,
+          "sign": "+",
+          "segments": 38
+        },
+        {
+          "area": 283,
+          "sign": "-",
+          "segments": 9
+        },
+        {
+          "area": 910,
+          "sign": "-",
+          "segments": 5
+        },
+        {
+          "area": 423,
+          "sign": "-",
+          "segments": 13
+        },
+        {
+          "area": 831,
+          "sign": "-",
+          "segments": 5
+        },
+        {
+          "area": 280,
+          "sign": "-",
+          "segments": 12
+        }
+      ]
+    },
+    "C": {
+      "source_bbox": [
+        485,
+        38,
+        662,
+        280
+      ],
+      "source_ink_area": 26261,
+      "scale": 3.528225806451613,
+      "advance": 693,
+      "bounds": [
+        36.8981994057959,
+        -60.88709677419365,
+        657.6889459786028,
+        792.6930592222279
+      ],
+      "contours": [
+        {
+          "area": 27372,
+          "sign": "+",
+          "segments": 40
+        },
+        {
+          "area": 230,
+          "sign": "-",
+          "segments": 10
+        },
+        {
+          "area": 220,
+          "sign": "-",
+          "segments": 11
+        },
+        {
+          "area": 387,
+          "sign": "-",
+          "segments": 11
+        },
+        {
+          "area": 274,
+          "sign": "-",
+          "segments": 10
+        }
+      ]
+    },
+    "D": {
+      "source_bbox": [
+        689,
+        40,
+        875,
+        284
+      ],
+      "source_ink_area": 30996,
+      "scale": 3.528225806451613,
+      "advance": 726,
+      "bounds": [
+        36.567221978919946,
+        -74.6302616630875,
+        690.7044144878049,
+        785.5304994300723
+      ],
+      "contours": [
+        {
+          "area": 34635,
+          "sign": "+",
+          "segments": 32
+        },
+        {
+          "area": 341,
+          "sign": "-",
+          "segments": 10
+        },
+        {
+          "area": 2524,
+          "sign": "-",
+          "segments": 7
+        },
+        {
+          "area": 303,
+          "sign": "-",
+          "segments": 9
+        },
+        {
+          "area": 471,
+          "sign": "-",
+          "segments": 14
+        }
+      ]
+    },
+    "E": {
+      "source_bbox": [
+        898,
+        36,
+        1062,
+        278
+      ],
+      "source_ink_area": 27759,
+      "scale": 3.528225806451613,
+      "advance": 647,
+      "bounds": [
+        37.112344360888315,
+        -53.38936678102442,
+        611.5791829622935,
+        799.378084807174
+      ],
+      "contours": [
+        {
+          "area": 28742,
+          "sign": "+",
+          "segments": 58
+        },
+        {
+          "area": 262,
+          "sign": "-",
+          "segments": 10
+        },
+        {
+          "area": 439,
+          "sign": "-",
+          "segments": 13
+        },
+        {
+          "area": 282,
+          "sign": "-",
+          "segments": 14
+        }
+      ]
+    },
+    "F": {
+      "source_bbox": [
+        1101,
+        38,
+        1252,
+        271
+      ],
+      "source_ink_area": 20986,
+      "scale": 3.528225806451613,
+      "advance": 601,
+      "bounds": [
+        35.80722672254417,
+        -29.13306451612914,
+        565.5878869428192,
+        792.6448626549261
+      ],
+      "contours": [
+        {
+          "area": 21763,
+          "sign": "+",
+          "segments": 44
+        },
+        {
+          "area": 179,
+          "sign": "-",
+          "segments": 7
+        },
+        {
+          "area": 322,
+          "sign": "-",
+          "segments": 10
+        },
+        {
+          "area": 276,
+          "sign": "-",
+          "segments": 11
+        }
+      ]
+    },
+    "G": {
+      "source_bbox": [
+        1260,
+        38,
+        1454,
+        279
+      ],
+      "source_ink_area": 29780,
+      "scale": 3.528225806451613,
+      "advance": 753,
+      "bounds": [
+        35.10756985714887,
+        -57.358870967742064,
+        717.891224536674,
+        792.0995109893281
+      ],
+      "contours": [
+        {
+          "area": 30915,
+          "sign": "+",
+          "segments": 44
+        },
+        {
+          "area": 288,
+          "sign": "-",
+          "segments": 10
+        },
+        {
+          "area": 355,
+          "sign": "-",
+          "segments": 10
+        },
+        {
+          "area": 282,
+          "sign": "-",
+          "segments": 11
+        },
+        {
+          "area": 210,
+          "sign": "-",
+          "segments": 7
+        }
+      ]
+    },
+    "H": {
+      "source_bbox": [
+        33,
+        305,
+        217,
+        535
+      ],
+      "source_ink_area": 29707,
+      "scale": 3.676470588235294,
+      "advance": 745,
+      "bounds": [
+        37.41287422149655,
+        -47.32762512533985,
+        709.6323529411764,
+        794.0691940902855
+      ],
+      "contours": [
+        {
+          "area": 30965,
+          "sign": "+",
+          "segments": 58
+        },
+        {
+          "area": 236,
+          "sign": "-",
+          "segments": 8
+        },
+        {
+          "area": 588,
+          "sign": "-",
+          "segments": 16
+        },
+        {
+          "area": 434,
+          "sign": "-",
+          "segments": 12
+        }
+      ]
+    },
+    "I": {
+      "source_bbox": [
+        286,
+        308,
+        384,
+        535
+      ],
+      "source_ink_area": 15158,
+      "scale": 3.676470588235294,
+      "advance": 428,
+      "bounds": [
+        35.07956978680413,
+        -49.03168766461446,
+        393.33958997526446,
+        785.5392524720005
+      ],
+      "contours": [
+        {
+          "area": 15784,
+          "sign": "+",
+          "segments": 31
+        },
+        {
+          "area": 381,
+          "sign": "-",
+          "segments": 10
+        },
+        {
+          "area": 245,
+          "sign": "-",
+          "segments": 11
+        }
+      ]
+    },
+    "J": {
+      "source_bbox": [
+        432,
+        307,
+        603,
+        542
+      ],
+      "source_ink_area": 21413,
+      "scale": 3.676470588235294,
+      "advance": 696,
+      "bounds": [
+        35.22254199714587,
+        -74.63312832290762,
+        661.2376140146642,
+        788.5684744854651
+      ],
+      "contours": [
+        {
+          "area": 22244,
+          "sign": "+",
+          "segments": 36
+        },
+        {
+          "area": 292,
+          "sign": "-",
+          "segments": 11
+        },
+        {
+          "area": 318,
+          "sign": "-",
+          "segments": 9
+        },
+        {
+          "area": 221,
+          "sign": "-",
+          "segments": 12
+        }
+      ]
+    },
+    "K": {
+      "source_bbox": [
+        637,
+        304,
+        819,
+        533
+      ],
+      "source_ink_area": 27600,
+      "scale": 3.676470588235294,
+      "advance": 739,
+      "bounds": [
+        35.138150963581964,
+        -41.066524814352285,
+        704.0972414488616,
+        797.7648859279499
+      ],
+      "contours": [
+        {
+          "area": 28736,
+          "sign": "+",
+          "segments": 48
+        },
+        {
+          "area": 241,
+          "sign": "-",
+          "segments": 9
+        },
+        {
+          "area": 566,
+          "sign": "-",
+          "segments": 12
+        },
+        {
+          "area": 329,
+          "sign": "-",
+          "segments": 12
+        }
+      ]
+    },
+    "L": {
+      "source_bbox": [
+        850,
+        304,
+        996,
+        541
+      ],
+      "source_ink_area": 18862,
+      "scale": 3.676470588235294,
+      "advance": 606,
+      "bounds": [
+        35.64775524432865,
+        -69.5085888725454,
+        571.0376902296987,
+        797.2945764127835
+      ],
+      "contours": [
+        {
+          "area": 19629,
+          "sign": "+",
+          "segments": 33
+        },
+        {
+          "area": 283,
+          "sign": "-",
+          "segments": 11
+        },
+        {
+          "area": 484,
+          "sign": "-",
+          "segments": 11
+        }
+      ]
+    },
+    "M": {
+      "source_bbox": [
+        1018,
+        308,
+        1232,
+        538
+      ],
+      "source_ink_area": 33256,
+      "scale": 3.676470588235294,
+      "advance": 855,
+      "bounds": [
+        34.75505012808636,
+        -59.01385861729626,
+        819.5823552704601,
+        783.8332840390203
+      ],
+      "contours": [
+        {
+          "area": 34646,
+          "sign": "+",
+          "segments": 45
+        },
+        {
+          "area": 260,
+          "sign": "-",
+          "segments": 9
+        },
+        {
+          "area": 472,
+          "sign": "-",
+          "segments": 16
+        },
+        {
+          "area": 391,
+          "sign": "-",
+          "segments": 11
+        },
+        {
+          "area": 267,
+          "sign": "-",
+          "segments": 11
+        }
+      ]
+    },
+    "N": {
+      "source_bbox": [
+        1259,
+        309,
+        1452,
+        535
+      ],
+      "source_ink_area": 30292,
+      "scale": 3.676470588235294,
+      "advance": 779,
+      "bounds": [
+        35.61865324987754,
+        -48.83603940174541,
+        744.1076876250123,
+        779.3973504235955
+      ],
+      "contours": [
+        {
+          "area": 31549,
+          "sign": "+",
+          "segments": 49
+        },
+        {
+          "area": 290,
+          "sign": "-",
+          "segments": 11
+        },
+        {
+          "area": 203,
+          "sign": "-",
+          "segments": 6
+        },
+        {
+          "area": 302,
+          "sign": "-",
+          "segments": 10
+        },
+        {
+          "area": 462,
+          "sign": "-",
+          "segments": 12
+        }
+      ]
+    },
+    "O": {
+      "source_bbox": [
+        37,
+        565,
+        225,
+        796
+      ],
+      "source_ink_area": 28737,
+      "scale": 3.707627118644068,
+      "advance": 767,
+      "bounds": [
+        35.73375141580174,
+        -59.75565380978957,
+        731.8208465747606,
+        796.1141702365659
+      ],
+      "contours": [
+        {
+          "area": 32673,
+          "sign": "+",
+          "segments": 34
+        },
+        {
+          "area": 193,
+          "sign": "-",
+          "segments": 10
+        },
+        {
+          "area": 246,
+          "sign": "-",
+          "segments": 9
+        },
+        {
+          "area": 3053,
+          "sign": "-",
+          "segments": 7
+        },
+        {
+          "area": 280,
+          "sign": "-",
+          "segments": 9
+        },
+        {
+          "area": 164,
+          "sign": "-",
+          "segments": 9
+        }
+      ]
+    },
+    "P": {
+      "source_bbox": [
+        261,
+        565,
+        423,
+        792
+      ],
+      "source_ink_area": 22536,
+      "scale": 3.707627118644068,
+      "advance": 670,
+      "bounds": [
+        37.180389441701024,
+        -44.80390076735117,
+        634.6866094357476,
+        796.0997911143186
+      ],
+      "contours": [
+        {
+          "area": 24322,
+          "sign": "+",
+          "segments": 33
+        },
+        {
+          "area": 173,
+          "sign": "-",
+          "segments": 6
+        },
+        {
+          "area": 430,
+          "sign": "-",
+          "segments": 12
+        },
+        {
+          "area": 897,
+          "sign": "-",
+          "segments": 5
+        },
+        {
+          "area": 286,
+          "sign": "-",
+          "segments": 10
+        }
+      ]
+    },
+    "Q": {
+      "source_bbox": [
+        442,
+        566,
+        632,
+        794
+      ],
+      "source_ink_area": 29188,
+      "scale": 3.707627118644068,
+      "advance": 774,
+      "bounds": [
+        35.341902902922186,
+        -52.740431103596435,
+        738.784102305112,
+        791.4191511083578
+      ],
+      "contours": [
+        {
+          "area": 32665,
+          "sign": "+",
+          "segments": 40
+        },
+        {
+          "area": 2607,
+          "sign": "-",
+          "segments": 9
+        },
+        {
+          "area": 305,
+          "sign": "-",
+          "segments": 9
+        },
+        {
+          "area": 276,
+          "sign": "-",
+          "segments": 11
+        },
+        {
+          "area": 289,
+          "sign": "-",
+          "segments": 12
+        }
+      ]
+    },
+    "R": {
+      "source_bbox": [
+        667,
+        566,
+        833,
+        790
+      ],
+      "source_ink_area": 26397,
+      "scale": 3.707627118644068,
+      "advance": 682,
+      "bounds": [
+        35.02121354932903,
+        -36.68664080532001,
+        647.1190898206135,
+        791.697412935188
+      ],
+      "contours": [
+        {
+          "area": 28218,
+          "sign": "+",
+          "segments": 40
+        },
+        {
+          "area": 227,
+          "sign": "-",
+          "segments": 7
+        },
+        {
+          "area": 954,
+          "sign": "-",
+          "segments": 5
+        },
+        {
+          "area": 376,
+          "sign": "-",
+          "segments": 12
+        },
+        {
+          "area": 264,
+          "sign": "-",
+          "segments": 9
+        }
+      ]
+    },
+    "S": {
+      "source_bbox": [
+        866,
+        564,
+        1026,
+        796
+      ],
+      "source_ink_area": 24373,
+      "scale": 3.707627118644068,
+      "advance": 662,
+      "bounds": [
+        36.99631090190118,
+        -59.6030335778988,
+        626.7495111791029,
+        799.4296512272429
+      ],
+      "contours": [
+        {
+          "area": 24906,
+          "sign": "+",
+          "segments": 56
+        },
+        {
+          "area": 268,
+          "sign": "-",
+          "segments": 8
+        },
+        {
+          "area": 265,
+          "sign": "-",
+          "segments": 11
+        }
+      ]
+    },
+    "T": {
+      "source_bbox": [
+        1051,
+        565,
+        1241,
+        794
+      ],
+      "source_ink_area": 22372,
+      "scale": 3.707627118644068,
+      "advance": 773,
+      "bounds": [
+        35.2505389737828,
+        -52.14591861587856,
+        738.0177895016913,
+        795.9677543156072
+      ],
+      "contours": [
+        {
+          "area": 23363,
+          "sign": "+",
+          "segments": 39
+        },
+        {
+          "area": 315,
+          "sign": "-",
+          "segments": 11
+        },
+        {
+          "area": 413,
+          "sign": "-",
+          "segments": 14
+        },
+        {
+          "area": 263,
+          "sign": "-",
+          "segments": 13
+        }
+      ]
+    },
+    "U": {
+      "source_bbox": [
+        1266,
+        568,
+        1449,
+        800
+      ],
+      "source_ink_area": 27934,
+      "scale": 3.707627118644068,
+      "advance": 748,
+      "bounds": [
+        37.03813060241755,
+        -74.13006719679785,
+        713.2675898846129,
+        783.2844608869748
+      ],
+      "contours": [
+        {
+          "area": 29055,
+          "sign": "+",
+          "segments": 43
+        },
+        {
+          "area": 233,
+          "sign": "-",
+          "segments": 10
+        },
+        {
+          "area": 381,
+          "sign": "-",
+          "segments": 10
+        },
+        {
+          "area": 507,
+          "sign": "-",
+          "segments": 13
+        }
+      ]
+    },
+    "V": {
+      "source_bbox": [
+        30,
+        821,
+        211,
+        1036
+      ],
+      "source_ink_area": 21510,
+      "scale": 4.069767441860465,
+      "advance": 806,
+      "bounds": [
+        37.965896162104876,
+        -74.29742520829149,
+        771.0563784018638,
+        797.9651162790698
+      ],
+      "contours": [
+        {
+          "area": 22696,
+          "sign": "+",
+          "segments": 37
+        },
+        {
+          "area": 244,
+          "sign": "-",
+          "segments": 11
+        },
+        {
+          "area": 490,
+          "sign": "-",
+          "segments": 12
+        },
+        {
+          "area": 452,
+          "sign": "-",
+          "segments": 13
+        }
+      ]
+    },
+    "W": {
+      "source_bbox": [
+        228,
+        822,
+        460,
+        1036
+      ],
+      "source_ink_area": 31094,
+      "scale": 4.069767441860465,
+      "advance": 1014,
+      "bounds": [
+        35.54462449849652,
+        -74.38260350477857,
+        978.7849547143474,
+        793.7450403459449
+      ],
+      "contours": [
+        {
+          "area": 32208,
+          "sign": "+",
+          "segments": 58
+        },
+        {
+          "area": 281,
+          "sign": "-",
+          "segments": 10
+        },
+        {
+          "area": 372,
+          "sign": "-",
+          "segments": 10
+        },
+        {
+          "area": 461,
+          "sign": "-",
+          "segments": 15
+        }
+      ]
+    },
+    "X": {
+      "source_bbox": [
+        474,
+        822,
+        651,
+        1032
+      ],
+      "source_ink_area": 23606,
+      "scale": 4.069767441860465,
+      "advance": 790,
+      "bounds": [
+        35.96535464854867,
+        -58.0808458551665,
+        754.6671017220968,
+        793.3866279069767
+      ],
+      "contours": [
+        {
+          "area": 24394,
+          "sign": "+",
+          "segments": 48
+        },
+        {
+          "area": 253,
+          "sign": "-",
+          "segments": 11
+        },
+        {
+          "area": 337,
+          "sign": "-",
+          "segments": 12
+        },
+        {
+          "area": 198,
+          "sign": "-",
+          "segments": 9
+        }
+      ]
+    },
+    "Y": {
+      "source_bbox": [
+        675,
+        821,
+        842,
+        1036
+      ],
+      "source_ink_area": 18776,
+      "scale": 4.069767441860465,
+      "advance": 750,
+      "bounds": [
+        35.4371156664245,
+        -75.0,
+        714.7476940395312,
+        799.5240044630476
+      ],
+      "contours": [
+        {
+          "area": 19645,
+          "sign": "+",
+          "segments": 35
+        },
+        {
+          "area": 260,
+          "sign": "-",
+          "segments": 10
+        },
+        {
+          "area": 267,
+          "sign": "-",
+          "segments": 11
+        },
+        {
+          "area": 342,
+          "sign": "-",
+          "segments": 12
+        }
+      ]
+    },
+    "Z": {
+      "source_bbox": [
+        854,
+        824,
+        1028,
+        1034
+      ],
+      "source_ink_area": 23688,
+      "scale": 4.069767441860465,
+      "advance": 776,
+      "bounds": [
+        37.13075778564868,
+        -66.55571419943786,
+        741.2134418891541,
+        787.2734653597219
+      ],
+      "contours": [
+        {
+          "area": 24277,
+          "sign": "+",
+          "segments": 51
+        },
+        {
+          "area": 338,
+          "sign": "-",
+          "segments": 12
+        },
+        {
+          "area": 251,
+          "sign": "-",
+          "segments": 10
+        }
+      ]
+    }
+  },
+  "font_checks": {
+    "Slop-Melt-Bitmap-v03-Regular.ttf": {
+      "glyph_count": 28,
+      "unicode_mappings": 54,
+      "all_uppercase_present": true,
+      "lowercase_aliases": true,
+      "reload_ok": true,
+      "freetype_load_and_render": true
+    },
+    "Slop-Melt-Bitmap-v03-Regular.otf": {
+      "glyph_count": 28,
+      "unicode_mappings": 54,
+      "all_uppercase_present": true,
+      "lowercase_aliases": true,
+      "reload_ok": true,
+      "freetype_load_and_render": true
+    },
+    "Slop-Melt-Bitmap-v03-Regular.woff": {
+      "glyph_count": 28,
+      "unicode_mappings": 54,
+      "all_uppercase_present": true,
+      "lowercase_aliases": true,
+      "reload_ok": true
+    }
+  }
+}

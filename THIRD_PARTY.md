@@ -21,9 +21,28 @@ licenses and notices remain with the packages installed by pip.
 
 This repository distributes the generator and its outputs, without vendoring
 the dependencies or their binary libraries. No library source was copied into
-the generator. No third-party font outlines or font files are included. The
-README images are rendered using Slop Melt itself.
+the generator. No third-party font outlines or font files are included.
+The original 0.1 README images are rendered using Slop Melt itself. The imported
+0.2 and 0.3 proofs use their corresponding Slop Melt fonts for the glyphs; their
+caption text may use installed system fonts. No such font files are bundled.
 
 The GitHub sticker is linked as a visual reference. Its photograph, graphic,
 wordmark, and trademarks are not included in this repository or covered by its
 WTFPL grant.
+
+## Bitmap 0.3 tools
+
+The bitmap builder additionally uses [SciPy](https://github.com/scipy/scipy/blob/main/LICENSE.txt)
+(BSD-3-Clause), NumPy (licenses noted above), and [Potrace 1.16](https://potrace.sourceforge.net/)
+(GPL-2.0-or-later). Its separate Python requirements record the tested versions.
+Potrace is installed externally and loaded through its public tracing API;
+its code and shared libraries are not redistributed or relicensed here. Its
+license applies to that dependency, not a new WTFPL grant over the dependency.
+Pillow's default proof-caption font or an explicitly selected installed font
+can be used for rebuilds; no third-party font binary is included.
+
+The original 0.2 MIT notice is retained in versions/v02-wax/LICENSE.txt because
+the preserved font metadata references that initial grant. The original font
+work is additionally offered under the repository's WTFPL policy. The imported
+0.3 name tables have no embedded license description; their license is supplied
+by the repository. No supplied font binary was rewritten for this update.

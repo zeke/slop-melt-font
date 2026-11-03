@@ -1,0 +1,102 @@
+{
+  "status": "passed",
+  "fonts": [
+    {
+      "version": "0.1",
+      "path": "assets/SlopMelt-Regular.ttf",
+      "family": "Slop Melt",
+      "glyphs": 71,
+      "unicode_mappings": 103,
+      "kerning_pairs": 14,
+      "rendered_codepoints": 101,
+      "checks": [
+        "all tables decompile",
+        "cmap round trip",
+        "metrics fit",
+        "uppercase/lowercase raster aliases"
+      ],
+      "sha256": "00c98575bb1e5ae76e862c9fd9ba164a3e6390c4c906db2f7ed85f2e8d319752"
+    },
+    {
+      "version": "0.2",
+      "path": "versions/v02-wax/assets/SlopMeltWax-Regular.ttf",
+      "family": "Slop Melt Wax",
+      "glyphs": 71,
+      "unicode_mappings": 103,
+      "kerning_pairs": 14,
+      "rendered_codepoints": 101,
+      "checks": [
+        "all tables decompile",
+        "cmap round trip",
+        "metrics fit",
+        "uppercase/lowercase raster aliases"
+      ],
+      "sha256": "fb88e003a4f33bcafd485ed287dcd6e4e1347b6b0c5ce00bad796a45f72728a6"
+    },
+    {
+      "version": "0.3",
+      "path": "versions/v03-bitmap/dist/Slop-Melt-Bitmap-v03-Regular.ttf",
+      "family": "Slop Melt Bitmap v03",
+      "glyphs": 28,
+      "unicode_mappings": 54,
+      "kerning_pairs": 0,
+      "rendered_codepoints": 52,
+      "checks": [
+        "all tables decompile",
+        "cmap round trip",
+        "metrics fit",
+        "uppercase/lowercase raster aliases"
+      ],
+      "sha256": "ef2b4af6e14ade82c4239c27a334a0ac23f63be4cecb606acc477382f215f58e"
+    },
+    {
+      "version": "0.3",
+      "path": "versions/v03-bitmap/dist/Slop-Melt-Bitmap-v03-Regular.otf",
+      "family": "Slop Melt Bitmap v03",
+      "glyphs": 28,
+      "unicode_mappings": 54,
+      "kerning_pairs": 0,
+      "rendered_codepoints": 52,
+      "checks": [
+        "all tables decompile",
+        "cmap round trip",
+        "metrics fit",
+        "uppercase/lowercase raster aliases"
+      ],
+      "sha256": "fe0d47c22e3f7d172a6318174f3dd8405200ce6dc588b9dfb590f440ffdb375f"
+    },
+    {
+      "version": "0.3",
+      "path": "versions/v03-bitmap/dist/Slop-Melt-Bitmap-v03-Regular.woff",
+      "family": "Slop Melt Bitmap v03",
+      "glyphs": 28,
+      "unicode_mappings": 54,
+      "kerning_pairs": 0,
+      "rendered_codepoints": 52,
+      "checks": [
+        "all tables decompile",
+        "cmap round trip",
+        "metrics fit",
+        "uppercase/lowercase raster aliases"
+      ],
+      "sha256": "925dde0ece74b4c776e0a129e8eda7017066c743088198c20fee233d2c019fb7"
+    }
+  ],
+  "preservation": {
+    "v01-preserved-files.json": 98,
+    "imported-artifacts.json": 141
+  },
+  "markdown_images": [
+    "docs/stop-the-slop.png",
+    "docs/type-specimen.png",
+    "docs/v02-type-specimen.png",
+    "docs/v03-type-specimen.png",
+    "docs/v03-stop-the-slop.png",
+    "docs/v02-type-specimen.png"
+  ],
+  "limits": [
+    "limited display-font coverage; no accents or separately drawn lowercase",
+    "0.3 has no digits, punctuation, or kerning",
+    "no physical-print or broad publishing-app test"
+  ]
+}
